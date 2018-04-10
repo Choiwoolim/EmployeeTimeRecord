@@ -28,7 +28,7 @@ public class TimeRecorder {
 		Scanner myScanner = new Scanner(System.in);
 		
 		System.out.print("How many employees do you want" +
-								"to process for their work time? ");
+								" to process for their work time? ");
 		
 		int numOfEmployees = myScanner.nextInt();
 		
@@ -38,7 +38,7 @@ public class TimeRecorder {
 			
 			System.out.println("Input work time for Employee " + (employeeCount+1) + ": ");
 			
-			for(WeekDays currentDay:WeekDays.values()) {
+			for(WeekDays currentDay:WeekDays.values()) {		
 				
 				System.out.print("  Input work time for Employee " + (employeeCount+1) 
 									+ " on " + currentDay + ": ");
